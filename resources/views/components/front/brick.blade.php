@@ -9,7 +9,7 @@
         <div class="entry__header">
             <h1 class="entry__title"><a href="{{ route('posts.display', $post->slug) }}">{{ $post->title }}</a></h1>
             <div class="entry__meta">
-                <span class="byline"">@lang('By:')
+                <span class="byline">@lang('By:')
                 <span class='author'>
                       <a href="{{ route('author', $post->user->id) }}">{{ $post->user->name }}</a>
                   </span>
